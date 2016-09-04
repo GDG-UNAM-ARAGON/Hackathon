@@ -1,0 +1,7 @@
+nav .nav-wrapper {
+	box-shadow: -150px 0px 100px #37474f
+	z-index: 1000;
+}
+.slider{
+	z-index: 0;
+}

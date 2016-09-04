@@ -18,7 +18,7 @@
 
 	<meta charset="UTF-8">
 	
-	<title>Hack For Community</title>
+	<title>Creative Hack</title>
 
 </head>
 
@@ -27,50 +27,69 @@
 	<header>
 		<nav>
 			<div class="nav-wrapper">
-				<a href="#" class="brand-logo center">Creative Hack</a>
-				<ul id="nav-mobile" class="right hide-on-med-and-down">
-			        <li><a href="sass.html">Sass</a></li>
-			    </ul>
+				<img src="Media/Img/CH.png" alt="" class="brand-logo center" id="logo">
+				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons md-dark">menu</i></a>
+
 				<ul id="nav-mobile" class="left hide-on-med-and-down">
-			        <li><a href="badges.html">Components</a></li>
+			        <li>
+			        	<a href="badges.html" id="navtxt">Acerca de Hackathon</a>
+			        </li>
+			        <li>
+			        	<a href="badges.html" id="navtxt">Registro</a>
+			        </li>
         		</ul>
+        		<ul id="nav-mobile" class="right hide-on-med-and-down">
+			        <li>
+			        	<a href="sass.html" id="navtxt">Acerca de GDG UNAM</a>
+			        </li>
+			        <li>
+			        	<a href="badges.html" id="navtxt1">FAQ</a>
+			        </li>
+			    </ul>
+			    <ul class="side-nav" id="mobile-demo">
+			        <li><a href="collapsible.html">Registro</a></li>
+			        <li><a href="sass.html">Acerca de Hackathon</a></li>
+			        <li><a href="badges.html">Acerca de GDG UNAM</a></li>
+			        <li><a href="mobile.html">FAQ</a></li>
+			    </ul>			    
 			</div>
 		</nav>
 	</header>
 	
 	<main>
-		<div class="slider">
-    		<ul class="slides">
-      			<li>
-			        <img src="http://lorempixel.com/580/250/nature/1">
-			        <div class="caption center-align">
-			        	<h3>This is our big Tagline!</h3>
-			        	<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-			        </div>
-      			</li>
-			    <li>
-			        <img src="http://lorempixel.com/580/250/nature/2">
-				    <div class="caption left-align">
-			        	<h3>Left Aligned Caption</h3>
-	        			<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-			        </div>
-			    </li>
-			    <li>
-			        <img src="http://lorempixel.com/580/250/nature/3">
-				    <div class="caption right-align">
-				        <h3>Right Aligned Caption</h3>
-				        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-				    </div>  
-			        </li>
-		        <li>
-			        <img src="http://lorempixel.com/580/250/nature/4">
-			        <div class="caption center-align">
-			        	<h3>This is our big Tagline!</h3>
-			        	<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-			        </div>
-		      	</li>
-    		</ul>
-  		</div>
+	<div class="gdglogo">
+		<img src="Media/Img/logo.png" alt="" class="center-align" id="gdgimg">
+    </div>
+    <div class="row">
+    	<div class="card-panel" id="first">
+    		<h4>Acerca del Hackathon</h4>
+    		<span">(Se buscara una idea general para poner, el porque y para que del hackathon. Tiene que ser una idea creativa y motivadora, donde genere interes en ello). Incluye todo, horarios, objtivos, premios y ya
+    		</span>
+    	</div>
+    </div>
+    <div class="row" id="card-margin">
+    	<div class="card-panel" id="Second">
+    		<h4>Registro</h4>
+    		<span>(Que personas se buscan (perfil), generalizar.)
+    		</span>
+    	</div>
+    </div>
+
+    <div class="row" id="card-margin">
+    	<div class="card-panel" id="Third">
+    		<h4>Acerca de GDG</h4>
+    		<span>(Quienes somos, como surgio esto, y la finalidad del evento)
+    		</span>
+    	</div>
+    </div>
+
+    <div class="row" id="card-margin">
+    	<div class="card-panel" id="Fourth">
+    		<h4>FAQ</h4>
+    		<span>(Preguntas comunes que pueden llegar a surgir)
+    		</span>
+    	</div>
+    </div>
 	</main>
 
 	<footer>
@@ -89,6 +108,11 @@
 		$(document).ready(function(){
       		$('.slider').slider({full_width: true});
     	});
+	</script>
+	<script>
+		$(document).ready(function() {
+			$(".button-collapse").sideNav()
+		;})
 	</script>
           
 </body>

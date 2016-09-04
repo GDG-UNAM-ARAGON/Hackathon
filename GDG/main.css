@@ -1,7 +1,74 @@
 nav .nav-wrapper {
-	box-shadow: -150px 0px 100px #37474f
+	background-color: #bcaaa4;
+	box-shadow: -250px 0px 130px #37474f
 	z-index: 1000;
 }
-.slider{
+#navtxt{
+	color: #000000;
+	margin-left: 5em;
+}
+#navtxt1{
+	color: #000000;
+	margin-left: 5em;
+	margin-right: 5em;
+}
+#logo{
+	margin-top: 5px;
+	width: 190px;
+	height: 50px;
+}
+.material-icons.md-dark {
+	color: rgba(0, 0, 0, 0.54);
+}
+#mobile-demo{
+	margin-top: 4em;
+}
+#gdgimg{
+	margin-top: 8px;
+	max-width: 300px;
+	max-height: 300px;
 	z-index: 0;
+}
+.gdglogo{
+	text-align: center;
+}
+@media only screen and (max-width : 992px) {
+      header, main, footer {
+        padding-left: 0;
+        margin-left: 0px;
+      }
+    }
+
+/* No modificar más el margen del row,
+ * queda justo para el
+ * responsive
+ */
+
+.row{
+	margin-top: -10px;
+	z-index: 1000;
+	margin-bottom: 0px;
+}
+.card-panel{
+	margin-bottom: 0px;
+}
+#first{
+	background-color: #008744;
+	color: white;
+	text-align: center;
+}
+#Second{
+	background-color: #0057e7;
+	color: white;
+	text-align: center;	
+}
+#Third{
+	background-color: #d62d20;
+	color: white;
+	text-align: center;
+}
+#Fourth{
+	background-color: #ffa700;
+	color: white;
+	text-align: center;
 }

@@ -125,3 +125,62 @@ nav .nav-wrapper {
 	font-weight: bold;
 	font-style: italic;
 }
+#creat{
+	font-weight: bold;
+	font-style: italic;
+	text-align: left;
+}
+#answer{
+	font-family: 'Roboto', sans-serif;
+	font-size: 19px;
+	text-align: left;	
+}
+/*
+ *
+ * Css del efecto parallax.js
+ *
+ */
+
+#scene{
+ 	margin-top: 0px;
+ 	margin-bottom: 0px;
+ 	max-height: 0px;
+}
+#scene1{
+ 	margin-top: 0px;
+ 	margin-bottom: 0px;
+ 	max-height: 0px;
+}
+#scene2{
+ 	margin-top: 0px;
+ 	margin-bottom: 0px;
+ 	max-height: 0px;
+}
+#scene3{
+ 	margin-top: 0px;
+ 	margin-bottom: 0px;
+ 	max-height: 0px;
+}
+#scene4{
+ 	margin-top: 0px;
+ 	margin-bottom: 0px;
+ 	max-height: 0px;
+}
+#scene5{
+ 	margin-top: 0px;
+ 	margin-bottom: 0px;
+ 	max-height: 0px;
+}
+ #a1{
+	max-height: 150px;
+	max-width: 150px;
+	margin-left: 92em;
+	margin-top: -180px;
+}
+
+#a2{
+	max-height: 150px;
+	max-width: 150px; 
+	margin-top: -180px;
+	margin-left: -15em;
+}

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+	<meta charset="UTF-8">
 
     <!-- Compiled and minified CSS -->
  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
@@ -19,13 +19,15 @@
 	
 	<link rel="stylesheet" href="main.css">
 
-	<meta charset="UTF-8">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	
 	<title>Creative Hack</title>
 
 </head>
 
-<body background="Media/Img/Creative.">
+<body>
 	
 	<header>
 
@@ -64,11 +66,20 @@
 	</header>
 	
 	<main>
+	
+	<div class="container">
+		<div class="gdglogo">
+			<img src="Media/Img/logo.png" alt="" class="center-align" id="gdgimg">
+	    </div>
+	</div> 
 
-	<div class="gdglogo">
-		<img src="Media/Img/logo.png" alt="" class="center-align" id="gdgimg">
-    </div>
-    
+	<div id="container" class="container">
+		<ul id="scene" class="scene">
+			<li class="layer" data-depth="0.40""><img src="Media/Img/herokulogo.png"  id="a1"></li>
+			<li class="layer" data-depth="0.40"><img src="Media/Img/unitylogo.png" id="a2"></li>
+		</ul>
+	</div>
+
     <div class="container">
 	    <div class="row">
 	    	<div class="card-panel" id="Base">
@@ -79,29 +90,51 @@
 	    </div>
     </div>
 
+	<div id="container" class="container">
+		<ul id="scene1" class="scene">
+			<li class="layer" data-depth="0.40""><img src="Media/Img/androidlogo.png"  id="a1"></li>
+			<li class="layer" data-depth="0.40"><img src="Media/Img/javalogo.png" id="a2"></li>
+		</ul>
+	</div>
+
 	<div class="container">
 	    <div class="row">
 	    	<div class="card-panel" id="First">
 	    		<h5>Hackathon</h5>
-	    		<span id="bodytxt">Es un hackathon organizado por la comunidad de GDG UNAM. Creado con el fin de hacer historia, siendo el primer hackathon organizado por esta comunidad.<br><br>Juntando el talento de distintas comunidades, se busca hacer un evento el cual trascienda y de pie a la creación de proyectos que exploten la creatividad y el ingenio de los participantes. 
+	    		<span id="bodytxt">Es un hackathon organizado por la comunidad de GDG UNAM. Creado con el fin de hacer historia, siendo el primer hackathon organizado por esta comunidad.<br><br>Juntando el talento de distintas comunidades, se busca hacer un evento el cual trascienda y de pie a la creación de proyectos que exploten la creatividad y el ingenio de los participantes. <br><br>
 
-	    		(Falta horarios, objetivos, premios)
+				Habrá premios para los equipos finalistas. Los premios serán otorgados por nuestros sponsors.
 	    		</span>
 	    	</div>
 	    </div>
 	</div>
+	
 
+	<div id="container" class="container">
+		<ul id="scene2" class="scene">
+			<li class="layer" data-depth="0.40""><img src="Media/Img/frontlogo.png"  id="a1"></li>
+			<li class="layer" data-depth="0.40"><img src="Media/Img/materializelogo.png" id="a2"></li>
+		</ul>
+	</div>
 	<div class="container">
 	    <div class="row" id="card-margin">
 	    	<div class="card-panel" id="Second">
 	    		<h5>Registro</h5>
-	    		<span id="bodytxt">(Que personas se buscan (perfil), generalizar. <br><br>
+	    		<span id="bodytxt">Solamente se busca una cosa en el hackathon, ser <span id="creat">Creativo.</span>. No importa quien seas, o de donde seas, solamente necesitaras tu ganas, energia y tu talento para poder resolver la problematica que se propondrá.<br><br>
+	    		Queremos que todas las personas, saliendo del Hackathon se lleven una excelente experiencia. Y salgan con ganas de innovar y apasionarse por saber más. Tendrás 2 días para desarrolar tu propuesta. <br><br>
 	    		</span>
 				<button class="btn waves-effect waves-color black-text" type="submit" name="action">Registro
 				<i class="material-icons right">send</i>
 	  </button>  		
 	    	</div>
 	    </div>
+	</div>
+
+	<div id="container" class="container">
+		<ul id="scene3" class="scene">
+			<li class="layer" data-depth="0.40""><img src="Media/Img/pythonlogo.png"  id="a1"></li>
+			<li class="layer" data-depth="0.40"><img src="Media/Img/djangologo.png" id="a2"></li>
+		</ul>
 	</div>
 
 	<div class="container">
@@ -120,17 +153,35 @@
 	    </div>
 	</div>
 
+	<div id="container" class="container">
+		<ul id="scene4" class="scene">
+			<li class="layer" data-depth="0.40""><img src="Media/Img/firebaselogo.png"  id="a1"></li>
+			<li class="layer" data-depth="0.40"><img src="Media/Img/googlelogo.png" id="a2"></li>
+		</ul>
+	</div>
+
 	<div class="container">
 	    <div class="row" id="card-margin">
 	    	<div class="card-panel" id="Fourth">
 	    		<h5>Preguntas Frecuentes</h5>
-	    		<p id="bodytxt1">¿Qué es un Hackathon?<br><br></p>
-	    		<p id="bodytxt1">¿Debo de llevar algo para el Hackathon?<br><br></p>
-	    		<p id="bodytxt1">¿Se usará una tecnología específica?<br><br></p>
-	    		<p id="bodytxt1">¿Tendrá algún costo?<br><br></p>
-	    		<p id="bodytxt1">¿Que pasa si no soy programador?<br><br></p>
+	    		<p id="bodytxt1">¿Qué es un Hackathon?<br></p>
+	    		<p id="answer"></p>
+	    		<p id="bodytxt1">¿Debo de llevar algo para el Hackathon?<br></p>
+	    		<p id="answer">Deberas traer tu laptop, cargador, celular, audífonos y lo más importatnte <span id="creat"> toda la actitud para desarrolar todas las ideas y propuestas que surjan de tu cabeza</span></p>
+	    		<p id="bodytxt1">¿Se usará una tecnología específica?<br></p>
+	    		<p id="answer">No, </p>
+	    		<p id="bodytxt1">¿Tendrá algún costo?<br></p>
+	    		<p id="answer">No, será toltamente <span id="creat"> Gratuito. </span> De nuestra cuenta corre, que disfrute el evento.</p>
+	    		<p id="bodytxt1">¿Que pasa si no soy programador?<br></p>
+	    		<p id="answer">No te preocupes, puedes asistir al evento. Uno de los objetivos que tiene GDG UNAM es <span id="creat">crear comunidad, </span> y que mejor manera de hacerlo, que haciendolo en el evento.</p>
 	    	</div>
 	    </div>
+	</div>
+		<div id="container" class="container">
+		<ul id="scene5" class="scene">
+			<li class="layer" data-depth="0.40""><img src="Media/Img/arduinologo.png"  id="a1"></li>
+			<li class="layer" data-depth="0.40"><img src="Media/Img/githublogo.png" id="a2"></li>
+		</ul>
 	</div>
 
 	</main>
@@ -143,17 +194,48 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     
     <script type="text/javascript" src="js/materialize.min.js"></script>
-
-    <script src="semantic/dist/semantic.min.js"></script>
 	
 	<!-- Compiled and minified JavaScript -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
+	<script src="parallax.js"></script>
 
 	<script>
 		$(document).ready(function() {
 			$(".button-collapse").sideNav()
 		;})
 	</script>
-          
+	
+	<script>
+	// Pretty simple huh?
+	var scene = document.getElementById('scene');
+	var parallax = new Parallax(scene);	
+	</script>
+	<script>
+	// Pretty simple huh?
+	var scene = document.getElementById('scene1');
+	var parallax = new Parallax(scene);	
+	</script>
+	<script>
+	// Pretty simple huh?
+	var scene = document.getElementById('scene2');
+	var parallax = new Parallax(scene);	
+	</script>
+	<script>
+	// Pretty simple huh?
+	var scene = document.getElementById('scene3');
+	var parallax = new Parallax(scene);	
+	</script>		
+	<script>
+	// Pretty simple huh?
+	var scene = document.getElementById('scene4');
+	var parallax = new Parallax(scene);	
+	</script>
+	<script>
+	// Pretty simple huh?
+	var scene = document.getElementById('scene5');
+	var parallax = new Parallax(scene);	
+	</script>
+
 </body>
 </html>

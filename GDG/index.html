@@ -66,6 +66,16 @@
 	</header>
 	
 	<main>
+
+	<div id="container" class="container">
+		<ul id="scene6" class="scene">
+			<li class="layer" data-depth="0.40""><img src="Media/Img/ubuntulogo.png"  id="a3"></li>
+			<li class="layer" data-depth="0.40"><img src="Media/Img/osxlogo.png" id="a4"></li>
+			<li class="layer" data-depth="0.40"><img src="Media/Img/mysqllogo.png" id="a5"></li>
+			<li class="layer" data-depth="0.40"><img src="Media/Img/postgrelogo.png" id="a6"></li>
+
+		</ul>
+	</div>
 	
 	<div class="container">
 		<div class="gdglogo">
@@ -165,7 +175,7 @@
 	    	<div class="card-panel" id="Fourth">
 	    		<h5>Preguntas Frecuentes</h5>
 	    		<p id="bodytxt1">¿Qué es un Hackathon?<br></p>
-	    		<p id="answer"></p>
+	    		<p id="answer">Es una estructura organizativa horizontal donde se complementan los <span id="creat"> conocimientos y experiencia </span> de cada persona con el fin de  <span id="creat">lograr un objetivo común y desarrollar soluciones concretas. </span></p>
 	    		<p id="bodytxt1">¿Debo de llevar algo para el Hackathon?<br></p>
 	    		<p id="answer">Deberas traer tu laptop, cargador, celular, audífonos y lo más importatnte <span id="creat"> toda la actitud para desarrolar todas las ideas y propuestas que surjan de tu cabeza</span></p>
 	    		<p id="bodytxt1">¿Se usará una tecnología específica?<br></p>
@@ -234,6 +244,11 @@
 	<script>
 	// Pretty simple huh?
 	var scene = document.getElementById('scene5');
+	var parallax = new Parallax(scene);	
+	</script>
+	<script>
+	// Pretty simple huh?
+	var scene = document.getElementById('scene6');
 	var parallax = new Parallax(scene);	
 	</script>
 

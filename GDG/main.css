@@ -184,3 +184,27 @@ nav .nav-wrapper {
 	margin-top: -180px;
 	margin-left: -15em;
 }
+#a3{
+	max-width: 150px;
+	max-height:  150px;
+	margin-left: 92em;
+	margin-top: 4em;
+}
+#a4{
+	max-width: 150px;
+	max-height: 150px;
+	margin-left: -15em;
+	margin-top: 2em;
+}
+#a5{
+	max-width: 150px;
+	max-height: 150px;
+	margin-left: 22em;
+	margin-top: 5em;
+}
+#a6{
+	max-width: 150px;
+	max-height: 150px;
+	margin-left: 60em;
+	margin-top: 3em;
+}

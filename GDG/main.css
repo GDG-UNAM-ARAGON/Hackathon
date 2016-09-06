@@ -118,3 +118,9 @@ nav .nav-wrapper {
 	font-family: 'Roboto', sans-serif;
 	font-size: 19px;
 }
+#bodytxt1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 19px;
+	text-align: left;
+	font-weight: bold;
+}

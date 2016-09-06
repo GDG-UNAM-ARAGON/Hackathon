@@ -1,13 +1,17 @@
 nav .nav-wrapper {
-	background-color: #bcaaa4;
+	background-color: #CFD8DC;
 	box-shadow: -250px 0px 130px #37474f
 	z-index: 1000;
 }
 #navtxt{
+	font-family: 'Exo 2', sans-serif;
+	font-size: 23px;
 	color: #000000;
 	margin-left: 5em;
 }
 #navtxt1{
+	font-family: 'Exo 2', sans-serif;
+	font-size: 23px;	
 	color: #000000;
 	margin-left: 5em;
 	margin-right: 5em;
@@ -21,7 +25,10 @@ nav .nav-wrapper {
 	color: rgba(0, 0, 0, 0.54);
 }
 #mobile-demo{
-	margin-top: 4em;
+	background-color: #CFD8DC;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 23px;
+	margin-top: 56px;
 }
 #gdgimg{
 	margin-top: 8px;
@@ -52,23 +59,62 @@ nav .nav-wrapper {
 .card-panel{
 	margin-bottom: 0px;
 }
+#Base{
+    font-family: 'Cuprum', sans-serif;	
+	background-color: white;
+	color: black;
+	text-align: center;
+}
 #First{
-	background-color: #008744;
+    font-family: 'Cuprum', sans-serif;	
+	background-color: #4CAF50;
 	color: white;
 	text-align: center;
 }
 #Second{
-	background-color: #0057e7;
+    font-family: 'Cuprum', sans-serif;	
+	background-color: #3F51B5;
 	color: white;
 	text-align: center;	
 }
 #Thirth{
-	background-color: #d62d20;
+    font-family: 'Cuprum', sans-serif;	
+	background-color: #F44336;
 	color: white;
 	text-align: center;
 }
 #Fourth{
-	background-color: #ffa700;
+    font-family: 'Cuprum', sans-serif;	
+	background-color: #FFC107;
 	color: white;
 	text-align: center;
+}
+ .waves-effect.waves-color{
+ 	background-color: white;
+ }
+ .waves-effect.waves-color .waves-ripple {
+      background-color: rgb(25, 112, 255);
+ }
+ #sn{
+ 	max-width: 75px;
+ 	max-height: 75px;	 
+ }
+ #sn1{
+ 	max-width: 70px;
+ 	max-height: 70px;	 
+ }
+#sz{
+	max-width: 180px;
+	max-height: 180px;
+	margin-top: 30px;
+}
+#sz1{
+	max-width: 180px;
+	max-height: 180px;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+#bodytxt{
+	font-family: 'Roboto', sans-serif;
+	font-size: 19px;
 }

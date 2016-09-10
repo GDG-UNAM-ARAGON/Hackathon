@@ -36,7 +36,7 @@ nav .nav-wrapper {
 	max-height: 300px;
 	z-index: 0;
 }
-.gdglogo{
+#gdglogo{
 	text-align: center;
 }
 @media only screen and (max-width : 992px) {
@@ -171,6 +171,11 @@ nav .nav-wrapper {
  	margin-bottom: 0px;
  	max-height: 0px;
 }
+#scene6{
+ 	margin-top: 0px;
+ 	margin-bottom: 0px;
+ 	max-height: 0px;
+}
  #a1{
 	max-height: 150px;
 	max-width: 150px;
@@ -199,12 +204,23 @@ nav .nav-wrapper {
 #a5{
 	max-width: 150px;
 	max-height: 150px;
-	margin-left: 22em;
+	margin-left: 14em;
 	margin-top: 5em;
 }
 #a6{
-	max-width: 150px;
-	max-height: 150px;
-	margin-left: 60em;
-	margin-top: 3em;
+	max-width: 200px;
+	max-height: 200px;
+	margin-left: 55em;
+	margin-top: 5em;
+}
+#video{
+	margin-left: 5em;		
+	width: 25%;
+	height: 25%;
+}
+#video1{
+	margin-top: 3px;
+	margin-left: 58em;
+	width: 25%;
+	height: 25%;
 }
